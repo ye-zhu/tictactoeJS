@@ -1,0 +1,37 @@
+.row {
+  display: flex;
+}
+
+.unit-, .unit-X, .unit-O {
+  height: 90px;
+  width: 90px;
+  border: 1px solid green;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 80px;
+  font-family: helvetica;
+  text-align: center;
+}
+
+
+.unit-X {
+  color : salmon;
+
+}
+
+.unit-O {
+  color: teal;
+}
+
+
+.textdiv {
+  width: 350px;
+  border: 1px solid green;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 40px;
+  font-family: helvetica;
+  text-align: center;
+}
