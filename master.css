@@ -2,60 +2,36 @@
   display: flex;
 }
 
-.unit {
-  height: 50px;
-  width: 50px;
+.unit-, .unit-X, .unit-O {
+  height: 90px;
+  width: 90px;
   border: 1px solid green;
-  padding: 0px;
-  border-radius: 10px;
-  margin: 0px;
-  font-size: 50px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 80px;
   font-family: helvetica;
   text-align: center;
 }
 
-.snake {
-  background-color: lightgreen;
-  border-radius: 15px;
-  border: 1px solid lightgreen;
-  box-shadow: 10px 10px 5px #888888;
+
+.unit-X {
+  color : salmon;
+
 }
 
-.fruit {
-  background-color: orange;
-  border-radius: 50px;
-  border: 1px solid orange;
+.unit-O {
+  color: teal;
 }
+
 
 .textdiv {
-  display: flex;
-  width: 1040px;
+  width: 350px;
   border: 1px solid green;
-  padding: 0px;
-  margin: 1px;
-  border-radius: 10px;
-
-}
-
-.textDis {
-  padding: 0px;
-  margin: 0px;
-  border-radius: 10px;
-  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 40px;
   font-family: helvetica;
   text-align: center;
-}
-
-.score {
-  margin-left: 35px;
-}
-
-.pause {
-  width: 265px;
-  background-color: salmon;
-}
-
-.restart {
-  width: 265px;
-  background-color: teal;
 }

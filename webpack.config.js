@@ -1,5 +1,5 @@
 module.exports = {
-  entry: "./snake/view.js",
+  entry: "./tictactoe/view.js",
   output: {
     filename: "bundle.js",
   },
